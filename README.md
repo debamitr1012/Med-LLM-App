@@ -1,1 +1,1 @@
-# Med-LLM-App
+# Multimodal LLM Medical Diagnostics App
