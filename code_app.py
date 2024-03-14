@@ -11,7 +11,7 @@ def image_to_byte_array(image: Image) -> bytes:
     image.save(imgByteArr, format=image.format)
     imgByteArr = imgByteArr.getvalue()
     return imgByteArr
-os.environ['GOOGLE_API_KEY'] = "AIzaSyCEqvAzAJGDK9VEZ_wxmXEACf8Nwe7UeSs"
+os.environ['GOOGLE_API_KEY'] = "your_api_key"
 genai.configure(api_key=os.environ['GOOGLE_API_KEY'])
 st.image("C:/Users/91983/Downloads/limitlesshackathon/logo.png", width=200)
 st.write("")
